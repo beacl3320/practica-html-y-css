@@ -10,7 +10,7 @@
 }
 
 *{
-    outline:1px solid red;
+    /* outline:1px solid red; */
 }
 
 
@@ -180,5 +180,24 @@ body{
 
 .title--margin{
     margin:0;
+}
+
+/* GALLERY SECTION */
+
+.gallery__container{
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery__picture{
+    width: 30%;
+    height: 250px;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: var(--box-shadow);
 }
 
